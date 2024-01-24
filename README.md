@@ -39,7 +39,7 @@ and get output:
  $D0 $FA	; BNE $2005
 ]
 ```
-If you want labels in o-page addressing, add 0 before label:
+If you want labels in 0-page addressing, add 0 before label:
 ```
 lda 0SAVMSC
 ```
