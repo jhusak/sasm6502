@@ -2,6 +2,7 @@
 ## A simple interactive assembler with atari Action! language code inserts output.
 
 If in need to insert 6502 code snipped to your Action code, you may find this tool useful.
+It is based on "assembler" function taken from atari800 emulator code.
 
 ### Usage
 
