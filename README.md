@@ -5,7 +5,7 @@ If in need to insert 6502 code snipped to your Action code, you may find this to
 
 ### Usage
 
-Invoke sasm6502 with optional assembly address.
+Invoke sasm6502 with optional assembly address (default $2000):
 ```
 $>sasm6502 0x3000
 ```
