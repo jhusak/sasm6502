@@ -181,7 +181,7 @@ static void safe_gets(char *buffer, size_t size, char const *prompt)
 
 static UWORD assembler(UWORD addr)
 {
-	fprintf(stderr,"Simple assembler (enter empty line to exit)\n");
+	fprintf(stderr,"Simple 6502 assembler for Action! by Jakub Husak (enter empty line to exit)\n");
 	memset(mem,0,sizeof(mem));
 	memset(comments,0,sizeof(comments));
 	memset(labels,0,sizeof(labels));
