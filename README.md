@@ -48,3 +48,7 @@ lda 0SAVMSC
 ### Building
 
 Type "make" to build. Apropriate gcc needed.
+
+### Bugs
+
+Sometimes when entering asm a mistake was made, the sasm state is not fully recovered and sometimes asm instruction entered is wrongly assembled. So be warned :) Will be fixed in spare time.
